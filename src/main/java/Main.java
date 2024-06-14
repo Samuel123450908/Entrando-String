@@ -31,7 +31,8 @@ public class Main {
     System.out.println("Sua idade é: " + idade + " anos");
     System.out.println("Sua altura é: " + altura + " metros");
     System.out.println("Sua massa é: " + massa + " kg");
-    System.out.printf("Seu IMC é: %.2f\n", imc);
+    System.out.printf("Seu IMC é:", imc);
+    System.out.println(imc);
 
     sc.close();
   }
